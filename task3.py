@@ -175,6 +175,9 @@ while selection >= 0:
         elif selection == 3:
             print '\nYou have selected the Guest Customer Option.'
             guest_customer()     # call the guest_customer function
+            print "\nNow, let's get to work on your order! "
+            print "\n\nHere is our Brew Menu: \n"
+            brew_menu()          # call the brew_menu function to allow a guest to begin their order
             selection = - 1
 
         else:
